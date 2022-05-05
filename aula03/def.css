@@ -6,6 +6,7 @@
     text-align: center;
     font: 700;
     color: aliceblue;
+    font-family: 'Roboto';
 
 }
 
@@ -62,7 +63,7 @@ body {
     bottom: -1%;
     background-color: rgb(75, 125, 25);
     position: absolute;
-    margin-top: -5rem;
+    margin-top: 1rem;
 }
 
 button {
