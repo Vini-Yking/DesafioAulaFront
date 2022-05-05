@@ -64,7 +64,7 @@ body {
 }
 
 button {
-    position: relative;
+    position: fixed;
     max-height: 3rem;
     max-width: 5rem;
     min-width: 0.1rem;
@@ -72,8 +72,8 @@ button {
     border-radius: 1.5rem;
     background-color: rgb(26, 18, 15);
 
-    top: -12%;
-    margin: -5rem;
+    bottom: 0;
+
 }
 
 button:hover {
