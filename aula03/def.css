@@ -39,7 +39,7 @@ body {
 
 .main {
     float: right;
-    margin-block: 1rem;
+    margin-block: 0.5rem;
     width: 75vw;
     height: 63vh;
 
@@ -47,7 +47,7 @@ body {
 }
 
 .side {
-    margin-block: 1rem;
+    margin-block: 0.5rem;
     float: left;
     background-color: brown;
     width: 20vw;
