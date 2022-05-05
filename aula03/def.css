@@ -69,10 +69,10 @@ button {
     max-width: 5rem;
     min-width: 0.1rem;
     min-height: 0.2rem;
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     background-color: rgb(26, 18, 15);
 
-    bottom: 0;
+    bottom: -1.5rem;
 
 }
 
