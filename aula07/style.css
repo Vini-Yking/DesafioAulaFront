@@ -1,0 +1,69 @@
+html,
+body {
+    background-color: #f8f8f8;
+}
+
+#form-container {
+
+    background-color: #fff;
+    box-shadow: 2rem 2rem 2rem rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+}
+
+.btn-secondary {
+    transition: 0.5s;
+    background-color: rgb(136, 0, 255);
+    color: rgb(252, 243, 243);
+    border: none;
+}
+
+#form-container a {
+    color: #222;
+    transition: 0.5s;
+    font-size: 1.5rem;
+
+}
+
+#form-container a:hover {
+    color: rgb(206, 0, 0);
+}
+
+
+.btn.btn-secondary {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+@media(min-width: 768px) {
+    #link-container {
+        text-align: center;
+    }
+
+
+    .btn.btn-secondary {
+        margin-bottom: 0;
+    }
+}
+
+#link-container {
+    text-align: left;
+}
+
+#form-container .form-control {
+    border-top: #222;
+    border-left: #222;
+
+}
+
+#form-container .form-control:focus {
+    box-shadow: none;
+
+}
+
+.form-floating label {
+    color: #BBB
+}
+
+.form-floating>.form-control:focus~label {
+    color: #222;
+}
