@@ -6,7 +6,8 @@
 
 body,
 html {
-    width: 100%;
+    max-width: 100%;
+    min-width: 15%;
     height: calc(100% - 10px);
 }
 
@@ -70,12 +71,17 @@ footer .div row {
 }
 
 footer .col {
-    height: calc(20vh - 10px);
+    height: calc(20vh - 20px);
     background-color: bisque;
 
 }
 
 footer div.teste {
     background-color: rgb(169, 18, 18);
-    margin-inline: 25px;
+    margin-inline: 15px;
+}
+
+svg {
+    justify-content: center;
+    align-content: center;
 }
